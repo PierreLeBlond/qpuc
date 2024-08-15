@@ -1,0 +1,61 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edittext_game_code"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_code" />
+
+        <Button
+            android:id="@+id/button_join_game"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="@string/main_join" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="128dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/main_or"
+                android:textAlignment="center" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="128dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_create_game"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="@string/main_create" />
+
+    </LinearLayout>
+</layout>

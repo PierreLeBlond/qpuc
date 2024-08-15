@@ -1,0 +1,6 @@
+<resources>
+    <plurals name="question_points">
+        <item quantity="one">Question à %d point</item>
+        <item quantity="other">Question à %d points</item>
+    </plurals>
+</resources>

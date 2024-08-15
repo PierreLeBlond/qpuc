@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="main_create">Animer une partie</string>
+    <string name="main_or">ou</string>
+    <string name="main_code">Code de la partie</string>
+    <string name="main_join">Rejoindre une partie</string>
+
+    <string name="create_number_of_players">Nombre de joueur.euse.s</string>
+    <string name="create_create">Créer la partie</string>
+
+    <string name="join_name">Nom</string>
+    <string name="join_join">Rejoindre la partie</string>
+    <string name="no_game_error">Aucune partie ne correspond à ce code</string>
+    <string name="no_place_error">Il n\'y a plus de places dans cette partie :/</string>
+
+    <string name="cancel">Annuler</string>
+
+
+    <string name="app_name">QPUC</string>
+
+    <string name="header_game_code">
+        %1$s
+    </string>
+    <string name="header_master">
+        maître.sse du jeu
+    </string>
+    <string name="header_player">
+        joueur.euse
+    </string>
+    <string name="header_player_name">
+        %1$s
+    </string>
+
+    <string name="players_numbers">
+        Joueur.euses : %1$d / %2$d
+    </string>
+    <string name="players_qualified">
+        Qualifié.e.s :
+    </string>
+    <string name="players_remaining">
+        En lice :
+    </string>
+
+    <string name="default_question_point">
+        1
+    </string>
+    <string name="lobby_question_points">
+        Points pour la prochaine question :
+    </string>
+    <string name="lobby_new_question">
+        Nouvelle question
+    </string>
+    <string name="lobby_end_game">
+        La partie est terminée !
+    </string>
+
+    <string name="yes_button">
+        C\'EST OUI
+    </string>
+    <string name="no_button">
+        C\'EST NON
+    </string>
+    <string name="top_button">
+        TOP
+    </string>
+
+    <string name="player_buzz">BUZZ</string>
+</resources>
